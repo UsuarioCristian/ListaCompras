@@ -4,7 +4,7 @@
     tools:context="com.lista.listacompras.MainActivity">
 
     <item
-        android:id="@+id/telefono"
+        android:id="@+id/iconLista"
         app:showAsAction="always"
         android:icon="@drawable/ic_clipboard"
         android:title="listaNueva"/>
