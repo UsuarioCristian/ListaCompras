@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lista.listacompras.MainActivity">
+
+    <item
+        android:id="@+id/telefono"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_clipboard"
+        android:title="listaNueva"/>
+
+    <item
+        android:id="@+id/opcionProducto"
+        app:showAsAction="never"
+        android:title="@string/ItemProductos"
+    />
+    <item
+        android:id="@+id/opcionCategoria"
+        app:showAsAction="never"
+        android:title="@string/ItemCategorias"
+        />
+    <item
+        android:id="@+id/opcionListas"
+        app:showAsAction="never"
+        android:title="@string/ItemListas"
+        />
+    <item
+        android:id="@+id/opcionComercios"
+        app:showAsAction="never"
+        android:title="@string/ItemComercios"
+        />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
